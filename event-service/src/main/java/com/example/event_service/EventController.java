@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class EventController {
     @GetMapping("/event")
     public Event getEvent() {
-        return new Event("DevOps Workshop 24WH1A05J1");
+        return new Event("DevOps Workshop2 24WH1A05J1");
     }
 }
